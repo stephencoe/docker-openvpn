@@ -19,7 +19,11 @@ Ensure dependencies are installed:
 
 Add the upstream Docker repository package signing key. The apt-key command uses elevated privileges via sudo, so a password prompt for the user's password may appear:
 
+<<<<<<< HEAD
     curl https://get.docker.io/gpg | sudo apt-key add -
+=======
+    curl -L https://get.docker.com/gpg | sudo apt-key add -
+>>>>>>> d3d11b660aea288e5a4de0dadd809f78a1725008
 
 Add the upstream Docker repository to the system list:
 
